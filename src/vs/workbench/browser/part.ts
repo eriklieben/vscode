@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./media/part';
+import './media/partvs/css!';
 import {Dimension, Builder} from 'vs/base/browser/builder';
 import {WorkbenchComponent} from 'vs/workbench/common/component';
 

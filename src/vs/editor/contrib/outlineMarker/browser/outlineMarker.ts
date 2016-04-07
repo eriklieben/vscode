@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./outlineMarker';
+import './outlineMarker.css!';
 import {RunOnceScheduler} from 'vs/base/common/async';
 import {onUnexpectedError} from 'vs/base/common/errors';
 import {IDisposable, dispose} from 'vs/base/common/lifecycle';

@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./contextMenuHandler';
+import './contextMenuHandler.css!';
 import Builder = require('vs/base/browser/builder');
 import Lifecycle = require('vs/base/common/lifecycle');
 import Mouse = require('vs/base/browser/mouseEvent');

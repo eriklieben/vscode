@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./media/binaryeditor';
+import './media/binaryeditor.css!';
 import nls = require('vs/nls');
 import {TPromise} from 'vs/base/common/winjs.base';
 import {Dimension, Builder, $} from 'vs/base/browser/builder';

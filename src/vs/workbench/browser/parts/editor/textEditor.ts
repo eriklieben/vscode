@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./media/texteditor';
+import './media/texteditor.css!';
 import {TPromise} from 'vs/base/common/winjs.base';
 import {Dimension, Builder} from 'vs/base/browser/builder';
 import objects = require('vs/base/common/objects');

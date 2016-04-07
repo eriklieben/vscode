@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./parameterHints';
+import './parameterHints.css!';
 import nls = require('vs/nls');
 import {ListenerUnbind} from 'vs/base/common/eventEmitter';
 import {IDisposable, dispose} from 'vs/base/common/lifecycle';

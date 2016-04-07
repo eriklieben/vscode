@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./media/sidebyside';
+import './media/sidebyside.css!';
 import nls = require('vs/nls');
 import {Registry} from 'vs/platform/platform';
 import {Scope, IActionBarRegistry, Extensions} from 'vs/workbench/browser/actionBarRegistry';

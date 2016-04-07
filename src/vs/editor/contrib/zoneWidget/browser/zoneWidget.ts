@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./zoneWidget';
+import './zoneWidget.css!';
 import {EventEmitter, ListenerUnbind} from 'vs/base/common/eventEmitter';
 import * as objects from 'vs/base/common/objects';
 import * as dom from 'vs/base/browser/dom';

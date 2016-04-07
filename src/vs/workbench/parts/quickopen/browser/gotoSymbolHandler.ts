@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./media/gotoSymbolHandler';
+import './media/gotoSymbolHandler.css!';
 import {TPromise} from 'vs/base/common/winjs.base';
 import nls = require('vs/nls');
 import arrays = require('vs/base/common/arrays');

@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./viewCursors';
+import './viewCursors.css!';
 import * as browser from 'vs/base/browser/browser';
 import * as editorCommon from 'vs/editor/common/editorCommon';
 import {ClassNames, IRenderingContext, IRestrictedRenderingContext, IViewContext} from 'vs/editor/browser/editorBrowser';

@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./quickFix';
+import './quickFix.css!';
 import * as nls from 'vs/nls';
 import {illegalArgument, onUnexpectedError} from 'vs/base/common/errors';
 import {ListenerUnbind} from 'vs/base/common/eventEmitter';

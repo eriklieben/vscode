@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./media/statusbarPart';
+import './media/statusbarPart.css!';
 import dom = require('vs/base/browser/dom');
 import types = require('vs/base/common/types');
 import nls = require('vs/nls');

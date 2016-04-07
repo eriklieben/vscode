@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 
-import 'vs/css!./referenceSearchWidget';
+import './referenceSearchWidget.css!';
 import * as nls from 'vs/nls';
 import * as collections from 'vs/base/common/collections';
 import {onUnexpectedError} from 'vs/base/common/errors';

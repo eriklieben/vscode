@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./suggest';
+import './suggest.css!';
 import * as nls from 'vs/nls';
 import * as strings from 'vs/base/common/strings';
 import {isPromiseCanceledError, onUnexpectedError} from 'vs/base/common/errors';

@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./hover';
+import './hover.css!';
 import * as nls from 'vs/nls';
 import {ListenerUnbind} from 'vs/base/common/eventEmitter';
 import {KeyCode, KeyMod} from 'vs/base/common/keyCodes';

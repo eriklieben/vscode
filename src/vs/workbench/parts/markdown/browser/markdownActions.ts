@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./media/markdownactions';
+import './media/markdownactions.css!';
 import {TPromise} from 'vs/base/common/winjs.base';
 import {Action} from 'vs/base/common/actions';
 import URI from 'vs/base/common/uri';

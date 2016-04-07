@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./currentLineHighlight';
+import './currentLineHighlight.css!';
 import * as editorCommon from 'vs/editor/common/editorCommon';
 import {ILayoutProvider, IRenderingContext, IViewContext} from 'vs/editor/browser/editorBrowser';
 import {DynamicViewOverlay} from 'vs/editor/browser/view/dynamicViewOverlay';

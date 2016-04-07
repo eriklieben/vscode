@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 
-import 'vs/css!vs/languages/css/common/css-hover';
+import 'vs/languages/css/common/css-hover.css!';
 import {ModesRegistry} from 'vs/editor/common/modes/modesRegistry';
 import Platform = require('vs/platform/platform');
 import nls = require('vs/nls');

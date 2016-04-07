@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./goToDeclaration';
+import './goToDeclaration.css!';
 import * as nls from 'vs/nls';
 import {coalesce} from 'vs/base/common/arrays';
 import {Throttler} from 'vs/base/common/async';

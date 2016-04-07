@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 
-import 'vs/css!vs/languages/css/common/css-hover';
+import 'vs/languages/css/common/css-hover.css!';
 import platform = require('vs/platform/platform');
 import nls = require('vs/nls');
 import lintRules = require('vs/languages/css/common/services/lintRules');

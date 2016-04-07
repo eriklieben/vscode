@@ -6,7 +6,7 @@
 
 'use strict';
 
-import 'vs/css!./quickOutline';
+import './quickOutline.css!';
 import * as nls from 'vs/nls';
 import * as arrays from 'vs/base/common/arrays';
 import {onUnexpectedError} from 'vs/base/common/errors';

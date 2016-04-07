@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 
-import 'vs/css!./media/markerHandler';
+import './media/markerHandler.css!';
 import {TPromise} from 'vs/base/common/winjs.base';
 import * as strings from 'vs/base/common/strings';
 import * as network from 'vs/base/common/network';

@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./media/iframeeditor';
+import './media/iframeeditor.css!';
 import nls = require('vs/nls');
 import {TPromise} from 'vs/base/common/winjs.base';
 import URI from 'vs/base/common/uri';

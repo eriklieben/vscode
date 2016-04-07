@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./workerStatusReporter';
+import './workerStatusReporter.css!';
 import {IDisposable, dispose} from 'vs/base/common/lifecycle';
 import * as browser from 'vs/base/browser/browser';
 import {IThreadService, IThreadServiceStatus, IThreadServiceStatusListener} from 'vs/platform/thread/common/thread';

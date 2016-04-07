@@ -1290,7 +1290,7 @@ var AMDLoader;
         /**
          * Resolve a plugin dependency with the plugin loaded & complete
          * @param moduleId The module that has this dependency
-         * @param dependencyId The semi-normalized dependency that appears in the module. e.g. 'vs/css!./mycssfile'. Only the plugin part (before !) is normalized
+         * @param dependencyId The semi-normalized dependency that appears in the module. e.g. './mycssfile.css!'. Only the plugin part (before !) is normalized
          * @param plugin The plugin (what the plugin exports)
          */
         ModuleManager.prototype._resolvePluginDependencySync = function (moduleId, dependencyId, plugin) {
@@ -1351,7 +1351,7 @@ var AMDLoader;
         /**
          * Resolve a plugin dependency with the plugin not loaded or not complete yet
          * @param moduleId The module that has this dependency
-         * @param dependencyId The semi-normalized dependency that appears in the module. e.g. 'vs/css!./mycssfile'. Only the plugin part (before !) is normalized
+         * @param dependencyId The semi-normalized dependency that appears in the module. e.g. './mycssfile.css!'. Only the plugin part (before !) is normalized
          */
         ModuleManager.prototype._resolvePluginDependencyAsync = function (moduleId, dependencyId) {
             var m = this._modules[moduleId], bangIndex = dependencyId.indexOf('!'), pluginId = dependencyId.substring(0, bangIndex);
@@ -1370,7 +1370,7 @@ var AMDLoader;
         /**
          * Resolve a plugin dependency
          * @param moduleId The module that has this dependency
-         * @param dependencyId The semi-normalized dependency that appears in the module. e.g. 'vs/css!./mycssfile'. Only the plugin part (before !) is normalized
+         * @param dependencyId The semi-normalized dependency that appears in the module. e.g. './mycssfile.css!'. Only the plugin part (before !) is normalized
          */
         ModuleManager.prototype._resolvePluginDependency = function (moduleId, dependencyId) {
             var bangIndex = dependencyId.indexOf('!'), pluginId = dependencyId.substring(0, bangIndex);

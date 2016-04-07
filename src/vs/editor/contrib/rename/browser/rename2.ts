@@ -5,7 +5,7 @@
 
 'use strict';
 
-import 'vs/css!./rename';
+import './rename.css!';
 import * as nls from 'vs/nls';
 import {isPromiseCanceledError} from 'vs/base/common/errors';
 import {KeyMod, KeyCode} from 'vs/base/common/keyCodes';
